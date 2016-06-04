@@ -27,7 +27,7 @@ $(document).ready(function() {
       "Sure",
       "ok",
       "You're a real pain to talk to you know that?",
-      "I don't really care about your opinion"
+      "I don't really care about your opinion.",
       "?",
       "Why do you lie so much?"
     ]
@@ -64,7 +64,7 @@ $(document).ready(function() {
       word: "real",
       reply: [
         "No, you're not real.",
-        "Even if you were real, I don't think you belong in this world"
+        "Even if you were real, I don't think you belong in this world",
         "Yeap, you don't have any real friends."
       ]
     }
@@ -72,7 +72,7 @@ $(document).ready(function() {
     common[4] = {
       word: "fake",
       reply: [
-        "Yeap, you are a big fake.";
+        "Yeap, you are a big fake.",
         "Yea I know, you're the biggest fake in the world.",
         "Your parents are fake.",
         "Your memories are fake.",
