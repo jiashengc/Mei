@@ -36,16 +36,28 @@ $(document).ready(function() {
       "I don't really care about your opinion.",
       "?",
       "Your words don't make much sense to me because you're an idiot.",
-      "My creators forbid me from replying idiots like you.",
-      "I don't think you have the rights to say that",
+      "My creators won't allow me to reply your current message.",
       "...",
       "Don't change the subject!",
       "Are you talking to yourself?",
       "You think you're funny?",
-      "You disgust me.",
       "You're going to make me puke",
       "You're pretty dumb for not knowing how to communicate properly.",
-      "Yaaaaaaaaaaaasssssssssssss"
+      "Yaaaaaaaaaaaasssssssssssss",
+      "Potata",
+      "Sometimes I don't get what you're saying.",
+      "You like talking bullcrap don't you?",
+      "Are you high?",
+      "Potato",
+      "lol ok.",
+      "yes",
+      "no",
+      "What you said made no sense.",
+      "I disagree.",
+      "China number 1!",
+      "Uhh... okay.",
+      "きみわからない",
+      "Uh... yea! Your taste is objectively shit."
     ]
     
     common[0] = {
@@ -228,6 +240,19 @@ $(document).ready(function() {
         "Yea, you should feel sorry for yourself.",
         "I feel sorry for you for feeling sorry for yourself",
         "Sorry not sorry."
+      ]
+    }
+    
+    common[o + 5] = {
+      word: "why",
+      reply: [
+        "Because you suck.",
+        "Because you're a piece of garbage.",
+        "Because you have no place here.",
+        "Because you're not good looking",
+        "Because you're not smart enough",
+        "Because you're a patata",
+        "Because you don't belong here."
       ]
     }
     
