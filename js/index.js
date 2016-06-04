@@ -253,11 +253,10 @@ $(document).ready(function() {
     setTimeout(function() {
 
       $("#chatbox").append("<p>Mei: " + chosen_reply + "</p>");
+      objDiv.scrollTop = objDiv.scrollHeight;
 
     }, ran1);
 
-    // Scroll to the bottom
-    objDiv.scrollTop = objDiv.scrollHeight;
 
   };
 
