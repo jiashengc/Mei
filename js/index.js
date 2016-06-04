@@ -9,6 +9,8 @@ $(document).ready(function() {
     if (event.which == 13) {
       var user_input = $(this).val()
       $(this).val("");
+      
+      objDiv.scrollTop = objDiv.scrollHeight;
 
       $("#chatbox").append("<p>You: " + user_input + "</p>");
       objDiv.scrollTop = objDiv.scrollHeight;
@@ -20,6 +22,8 @@ $(document).ready(function() {
   // Bot reply phase
   function botReply(input) {
 
+    objDiv.scrollTop = objDiv.scrollHeight;
+    
     var common = [];
 
     var uncommon = [
@@ -253,7 +257,6 @@ $(document).ready(function() {
     setTimeout(function() {
 
       $("#chatbox").append("<p>Mei: " + chosen_reply + "</p>");
-      objDiv.scrollTop = objDiv.scrollHeight;
 
     }, ran1);
 
