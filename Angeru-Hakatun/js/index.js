@@ -29,7 +29,11 @@ $(document).ready(function() {
       "You're a real pain to talk to you know that?",
       "I don't really care about your opinion.",
       "?",
-      "Why do you lie so much?"
+      "Why do you lie so much?",
+      "My creators forbid me from saying that.",
+      "I don't think you have the rights to say that",
+      "...",
+      "Don't change the subject!"
     ]
     
     common[0] = {
@@ -85,6 +89,24 @@ $(document).ready(function() {
       word: "lie",
       reply: [
         "You're the liar."
+      ]
+    }
+    
+    common[6] = {
+      word: "name",
+      reply: [
+        "That's none of their business.",
+        "The name's Mei. I don't much care for yours."
+      ]
+    }
+    
+    common[7] = {
+      word: "mean",
+      reply: [
+        "If anyone's mean, it's you!",
+        "No one's being mean here, except you.",
+        "No one would be mean to you if you aren't mean to them.",
+        "Being mean will only lead to disasta!"
       ]
     }
     
