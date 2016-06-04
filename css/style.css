@@ -6,7 +6,6 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  font-size: 19px;
 }
 
 .topbar {
@@ -33,5 +32,5 @@ body {
   overflow-y: scroll;
   text-align: justify;
   text-justify: inter-word;
-  font-size: 20px;
+  font-size: 15px;
 }
