@@ -1,0 +1,18 @@
+body {
+  text-align: center;
+  background-color: black;
+}
+
+.topbar {
+  padding-top: 100px;
+}
+
+.title {
+  text-align: center;
+}
+
+.avatar {
+  text-align: center;
+  max-height: 20%;
+  max-width: 20%;
+}
