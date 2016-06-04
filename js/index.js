@@ -198,6 +198,65 @@ $(document).ready(function() {
       ]
     }
     
+    common[15] = {
+      word: "how are you",
+      reply: [
+        "I'm feeling terrible, thanks to you.",
+        "Bad, because I'm talking to some idiot right now.",
+        "Terrible, there's some pretentious person speaking to me now.",
+        "Super terrible, some peasant is trying to converse with me."
+      ]
+    }
+    
+    common[16] = {
+      word: "how am i",
+      reply: [
+        "Because you're a person who lacks common sense.",
+        "Because you're the type of person who lack common sense.",
+        "Because you aren't genuine with your words.",
+        "Because you ain't cool.",
+        "Because you don't have any swag!",
+        "Because you're lame like Qing.",
+        "Because you can't bathe without your parents being there.",
+        "Because you need permission from your parents to go to the toilet.",
+        "Because you don't have any friends.",
+        "Because you're not real.",
+        "Because you're a big fake!"
+      ]
+    }
+    
+    common[17] = {
+      word: "doesn't make sense",
+      reply: [
+        "Of course it make sense, it's just you who lack sense.",
+        "You won't get it because you lack intelligence",
+        "Everything won't make sense for you.",
+        "I'm not surprise at your lack of intelligence.",
+        "No offense but are you dumb?"
+      ]
+    }
+    
+    common[18] = {
+      word: "how so",
+      reply: [
+        "You just can't get anything right, you mess up the conversation all the time!",
+        "You aren't being direct most of the time, you need some education.",
+        "You are't responsive enough, it hurts my kokoro talking to you.",
+        "Your replies aren't genuine, it makes me want to puke."
+      ]
+    }
+    
+    common[19] = {
+      word: "what are you doing",
+      reply: [
+        "I'm doing your mum!",
+        "I'm finding a death note to write your name down",
+        "I'm trying to stop conversing with an idiot now.",
+        "I'm doing my best to ignore you.",
+        "I'm fighting the toxic coming out of you."
+      ]
+    }
+    
     var o = common.length - 1;
     
     common[o + 1] = {
@@ -255,6 +314,25 @@ $(document).ready(function() {
         "Because you don't belong here."
       ]
     }
+    
+    common[o + 6] = {
+      word: "what",
+      reply: [
+        "Don't what me!",
+        "You don't want me to repeat myself >;(",
+        "I don't like people when they try and think they're all clever."
+      ]
+    }
+    
+    common[o + 7] = {
+      word: "harsh",
+      reply: [
+        "I'm only harsh because you're someone who doesn't deserve my kindness.",
+        "If anything, you're the harsh one here.",
+        "No one's being harsh, there's just an idiot here."
+      ]
+    }
+    
     
     // Extra time for the bot to reply
     var ran1 = Math.random() * (2000 - 500 + 1) + 500;
