@@ -2,6 +2,7 @@ $(document).ready(function() {
 
   var chosen_reply;
   var n;
+  var objDiv = document.getElementById("chatbox");
   
   // Talking phase
   $("#chat-talk").keypress(function(event) {
@@ -10,6 +11,7 @@ $(document).ready(function() {
       $(this).val("");
 
       $("#chatbox").append("<p>You: " + user_input + "</p>");
+      objDiv.scrollTop = objDiv.scrollHeight;
       botReply(user_input);
 
     }
@@ -255,7 +257,6 @@ $(document).ready(function() {
     }, ran1);
 
     // Scroll to the bottom
-    var objDiv = document.getElementById("chatbox");
     objDiv.scrollTop = objDiv.scrollHeight;
 
   };
