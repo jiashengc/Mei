@@ -12,12 +12,24 @@ body {
   padding-top: 100px;
 }
 
+.bottombar {
+  padding-bottom: 100px;
+}
+
 .title {
   text-align: center;
 }
 
 .avatar {
-  text-align: center;
-  max-height: 20%;
-  max-width: 20%;
+  max-height: 50%;
+  max-width: 50%;
+}
+
+.chatbox {
+  padding: 20px;
+  height: 500px;
+  width: 800px;
+  overflow-y: scroll;
+  text-align: justify;
+  text-justify: inter-word;
 }
