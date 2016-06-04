@@ -9,7 +9,7 @@ $(document).ready(function() {
       var user_input = $(this).val()
       $(this).val("");
 
-      $(".chatbox").append("<p>You: " + user_input + "</p>");
+      $("#chatbox").append("<p>You: " + user_input + "</p>");
       botReply(user_input);
 
     }
@@ -135,12 +135,12 @@ $(document).ready(function() {
     // Reply
     setTimeout(function() {
 
-      $(".chatbox").append("<p>Mei: " + chosen_reply + "</p>");
+      $("#chatbox").append("<p>Mei: " + chosen_reply + "</p>");
 
     }, ran1);
 
     // Scroll to the bottom
-    var objDiv = document.getElementById(".chatbox");
+    var objDiv = document.getElementById("chatbox");
     objDiv.scrollTop = objDiv.scrollHeight;
 
   };
