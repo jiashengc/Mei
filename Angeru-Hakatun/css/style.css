@@ -1,6 +1,7 @@
 body {
   text-align: center;
-  background-color: black;
+  background-image: url("https://github.com/jiashengc/AngelHack2016/blob/gh-pages/whatever.png?raw=true");
+  background-color: #6495ed;
 }
 
 .topbar {
