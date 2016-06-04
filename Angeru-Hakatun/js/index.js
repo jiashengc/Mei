@@ -10,6 +10,7 @@ $(document).ready(function() {
       $(this).val("");
 
       $(".chatbox").append("<p>You: " + user_input + "</p>");
+      $(".chatbox").scrollTo('100%');
       botReply(user_input);
 
     }
@@ -140,7 +141,7 @@ $(document).ready(function() {
     }, ran1);
 
     // Scroll to the bottom
-    $("#chat-box").scrollTo('100%');
+    $(".chatbox").scrollTo('100%');
 
   };
 
