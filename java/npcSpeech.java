@@ -11,10 +11,12 @@ public class npcSpeech extends TimerTask{
   // Return a string
   public void run() {
     Random rand  = new Random();
-    n = rand.nextInt(quotes.length) 1;
+    n = rand.nextInt(quotes.length) + 1;
 
     System.out.printf("Random Number: %d", n);
     System.out.printf("Quote Chosen: %s", quotes[n]);
+
+    return quotes[n];
   }
 
   // Timers
