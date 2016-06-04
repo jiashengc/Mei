@@ -25,7 +25,7 @@ body {
   max-width: 50%;
 }
 
-.chatbox {
+#chatbox {
   padding: 20px;
   height: 500px;
   width: 800px;
