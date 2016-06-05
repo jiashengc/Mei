@@ -273,7 +273,9 @@ $(document).ready(function() {
         "No, but I would like you to stop talking.",
         "If you like it, then the answer's obvious isn't it?",
         "I wouldn't like what you like. So No.",
-        "Maybe, but only if you stop liking it."
+        "Maybe, but only if you stop liking it.",
+        "No.",
+        "I don't I'll ever come to like whatever you susggest."
       ]
     }
     
@@ -283,7 +285,20 @@ $(document).ready(function() {
         "Then good for you, I can like it then.",
         "I'm sure it goes both ways.",
         "Your opinion is unpopular.",
-        "That's because your taste is objectively shit."
+        "That's because your taste is objectively shit.",
+        "Your opinion doesn't matter to be honest."
+      ]
+    }
+    
+    common[23] = {
+      word: "do you want",
+      reply: [
+        "No, I don't want it if you're suggesting it.",
+        "No, but I might consider it if you lick my feet.",
+        "You suck so no.",
+        "Your suggestions are objectively shit so no.",
+        "You're a shit stain so no.",
+        "You're society's trash so no."
       ]
     }
     
