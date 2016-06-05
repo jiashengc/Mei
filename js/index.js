@@ -257,6 +257,36 @@ $(document).ready(function() {
       ]
     }
     
+    common[20] = {
+      word: "do you like yourself",
+      reply: [
+        "Of course I do, unlike someone here.",
+        "Yeap, someone here doesn't like themselves though.",
+        "Yes, but someone doesn't like themsevles apparently."
+      ]
+    }
+    
+    common[21] = {
+      word: "do you like",
+      reply: [
+        "No, but I would like you to screw off.",
+        "No, but I would like you to stop talking.",
+        "If you like it, then the answer's obvious isn't it?",
+        "I wouldn't like what you like. So No.",
+        "Maybe, but only if you stop liking it."
+      ]
+    }
+    
+    common[22] = {
+      word: "i don't like",
+      reply: [
+        "Then good for you, I can like it then.",
+        "I'm sure it goes both ways.",
+        "Your opinion is unpopular.",
+        "That's because your taste is objectively shit."
+      ]
+    }
+    
     var o = common.length - 1;
     
     common[o + 1] = {
@@ -330,6 +360,29 @@ $(document).ready(function() {
         "I'm only harsh because you're someone who doesn't deserve my kindness.",
         "If anything, you're the harsh one here.",
         "No one's being harsh, there's just an idiot here."
+      ]
+    }
+    
+    common[o + 8] = {
+      word: "yes",
+      reply: [
+        "No."
+      ]
+    }
+    
+    common[o + 9] = {
+      word: "no",
+      reply: [
+        "Yes."
+      ]
+    }
+    
+    common[o + 10] = {
+      word: "sad",
+      reply: [
+        "If you're sad then maybe you should go do something useful once in your life.",
+        "If you start having inteliggence, I'm sure you won't be sad anymore.",
+        "You're only sad because you think too much of stupid stuff"
       ]
     }
     
