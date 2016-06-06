@@ -302,7 +302,14 @@ $(document).ready(function() {
       ]
     }
     
-    var o = common.length - 1;
+    var o = common.length;
+    
+    common[o] = {
+      word: "or",
+      reply: [
+        "I don't think any of those options are good."
+        ]
+    }
     
     common[o + 1] = {
       word: "hello",
