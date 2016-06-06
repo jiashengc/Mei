@@ -61,13 +61,10 @@ $(document).ready(function() {
     ]
     
     common[0] = {
-      word: "anime",
+      word: "or",
       reply: [
-        "Anime is Shit.",
-        "Anime is the worst.",
-        "Your favourite Anime is Shit!",
-        "Are you a weeb? I don't like weebs."
-      ]
+        "I don't think any of those options are good."
+        ]
     }
 
     common[1] = {
@@ -302,14 +299,17 @@ $(document).ready(function() {
       ]
     }
     
-    var o = common.length;
-    
-    common[o] = {
-      word: "or",
+    common[24] = {
+      word: "anime",
       reply: [
-        "I don't think any of those options are good."
-        ]
+        "Anime is Shit.",
+        "Anime is the worst.",
+        "Your favourite Anime is Shit!",
+        "Are you a weeb? I don't like weebs."
+      ]
     }
+    
+    var o = common.length - 1;
     
     common[o + 1] = {
       word: "hello",
