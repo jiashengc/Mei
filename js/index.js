@@ -61,9 +61,11 @@ $(document).ready(function() {
     ]
     
     common[0] = {
-      word: "or",
+      word: "fuck you",
       reply: [
-        "I don't think any of those options are good."
+        "You should fuck yourself instead.",
+        "Even if you wanted to fuck me, you won't have a dick to do it.",
+        "You must be a sad person to want to fuck a bot."
         ]
     }
 
