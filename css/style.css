@@ -1,3 +1,7 @@
+.html {
+  overflow-x: hidden;
+}
+
 body {
   text-align: center;
   background-image: url("https://github.com/jiashengc/AngelHack2016/blob/gh-pages/whatever.png?raw=true") no-repeat center center fixed;
@@ -13,6 +17,7 @@ body {
 }
 
 .bottombar {
+  padding-top: 50px;
   padding-bottom: 100px;
 }
 
